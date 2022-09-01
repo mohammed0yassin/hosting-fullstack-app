@@ -24,6 +24,7 @@ jobs:
             echo "NPM --version" 
             echo $(npm --version)
             npm run frontend:install
+            npm install @angular/http --legacy-peer-deps
       # TODO: Install dependencies in the the backend API          
       - run:
           name: Install API Dependencies
