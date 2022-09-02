@@ -1,0 +1,9 @@
+branch-defaults:
+  master:
+    environment: Myfullstackappelb-env
+global:
+  application_name: MyFullStackAppELB
+  default_ec2_keyname: myfullstackappelb-key
+  default_platform: Node.js
+  default_region: us-east-1
+  sc: git
